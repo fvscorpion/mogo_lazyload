@@ -10,6 +10,7 @@ let paths = {
 
 	scripts: {
 		src: [
+			'node_modules/yall-js/dist/yall.min.js',
 			'node_modules/jquery/dist/jquery.min.js', // npm vendor example (npm i --save-dev jquery)
 			'node_modules/waypoints/lib/jquery.waypoints.min.js',
 			'node_modules/jquery.animate-number/jquery.animateNumber.min.js',
