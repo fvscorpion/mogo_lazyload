@@ -1,4 +1,8 @@
 $(function() {
+
+	yall({
+        threshold: 1500
+    });
 	
 	$(".toggle-mnu").click(function() {
 		if (($(window).width()) < 768) {
