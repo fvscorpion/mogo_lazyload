@@ -382,6 +382,10 @@
 
 .devices {
     padding: 105px 0 0;
+    background-color: #F2F2F2;
+}
+
+.devices.lazy-bg-loaded {
     background-image: url('../img/dest/devices-background.png');
     background-size: cover;
     background-position: center;
@@ -753,13 +757,17 @@
 
 .clients {
     padding: 105px 0 125px;
-    background-image: url('../img/dest/clients-background.png');
-    background-size: cover;
-    background-position: center;
+    background-color: #F2F2F2;
 
     .section-head {
         margin-bottom: 125px;
     }
+}
+
+.clients.lazy-bg-loaded {
+    background-image: url('../img/dest/clients-background.png');
+    background-size: cover;
+    background-position: center;
 }
 
 .clients-wrapper {
@@ -905,9 +913,7 @@
 
 .map {
     padding: 60px 0;
-    background-image: url('../img/dest/map-background.png');
-    background-size: cover;
-    background-position: center;
+    background-color: #F2F2F2;
 
     .section-head {
         margin-bottom: 0;
@@ -927,6 +933,12 @@
             }
         }
     }
+}
+
+.map.lazy-bg-loaded {
+    background-image: url('../img/dest/map-background.png');
+    background-size: cover;
+    background-position: center;
 }
 
 .mfp-fade.mfp-bg {
